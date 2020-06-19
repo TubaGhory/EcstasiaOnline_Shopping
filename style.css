@@ -1,0 +1,478 @@
+/* Logo Division */
+@font-face
+{
+    font-family: 'Kaushan Script', cursive;
+}
+@font-face{
+    font-family: 'Arvo', serif;
+}
+@font-face{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.logoDiv{
+height: 150px;
+font-style: italic;
+color: white;
+background-color:  #330066;
+padding: 0%;
+}
+
+
+
+/* Nav Bar Top */
+
+.logoText{
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+}
+
+
+
+/* Nav Bar */
+.color{
+    
+    background:#00121b ;
+}
+.nav{
+    margin-left: 30%;
+}
+
+.nav2{
+    margin-left: 0%;
+    }
+    
+    nav li div .dropdown-item:hover{
+    background-color:  #007bff;
+    color: white;
+    }
+
+
+
+
+/* Slider */
+.slide{
+    height: 500px;
+    width: 100%;
+}
+
+/* Lawn Package div */
+.card1{
+    width: 250px !important;
+    height: 500px !important;
+    margin-bottom: 20px !important;
+    margin-top: 20px !important;
+}
+.container {
+    display: flex;
+  }
+  .container > div {
+    flex: 1; /*grow*/
+  }
+  .moreImage{
+      width: 40px;
+      height: 80px;
+      margin-top: 450%;
+      margin-left: 10px;
+      
+  }
+
+
+/* All heading divs */
+
+.headDivs
+{
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+    float: none;;
+    text-align: center;
+color: white;
+
+}
+.blue{
+    text-align: center;
+    font-weight: 600;
+    color: dimgray;
+}
+.orange{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(250, 105, 1);
+}
+
+
+
+
+/* FOOTER */
+
+.footer{
+    width: 100%;
+    background:#00121b ;
+    display: block;
+    }
+    .inner-footer{
+        width:100%;
+        margin-left:0px;
+        padding:80px 0px 0px 100px;
+        display:flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
+    .footer-items{
+        width:30% ;
+        padding:0px ;
+        box-sizing: border-box;
+    }
+    
+    .footer-items p{
+        color:grey;
+        font-size: 16px;
+        text-align: justify;
+        line-height: 25px;
+    }
+    .h1class{
+        padding: 10px 0;
+        font-size:25px;
+        color:#fff;
+        text-transform: uppercase;
+    }
+    .heading{
+        margin: 10px 30px ;
+        color:#fff;
+        font-weight: bolder;
+        text-align: left;
+    }
+    
+    
+    /* useful-links */
+    
+    .my-account{
+        width: 30%;
+        color: #fff;
+        text-align: center;
+    }
+    
+    .border1{
+        margin: 10px 0px ;
+        height:3px ;
+        width:60px;
+        background-color:#00ccff ;
+        display:block;
+    }
+    .border2{
+        display:block;
+        height:1px ;
+        width:200px;
+        background-color:#fff7;
+    }
+    .ulclass{
+        list-style: none;
+        color: #fff;
+        font-size: 15px;
+        letter-spacing: 0.5px;
+    }
+    .ul-a-class{
+        text-decoration:none;
+        outline:none;
+        color: #fff;
+        transition: 0.3s;
+    }
+    .ul-a-class:hover{
+        columns: #ff9800;
+    }
+    li i{
+        margin-right: 20px;
+        padding: 1px;
+    }
+    .social-media{
+        width: 20%;
+        color: #fff;
+        text-align: center;
+    }
+    .social-media a{
+        text-decoration: none;
+    }
+    .social-media i{
+        height:15px;
+        width:10px;
+        margin:10px 0px 0px 0px;
+        padding:20px;
+        color: #fff;
+        background-color:#007bff ;
+        border-radius: 50%;
+        border: 2px solid grey;
+        transition: 0.3s;
+    }
+    .social-media a i:hover{
+        background: #00ccff;
+    }
+    .footer-bottom{
+        padding:10px;
+        background:#3d545f;
+        color:#fff;
+        font-size:12px;
+    }
+    .text
+    {
+        color: rgba(255, 255, 255, 0.644);
+        text-align: start;
+        font-weight: lighter;
+    }
+
+
+
+
+    @media screen and (max-width:1085px){
+        .footer-items{
+            width: 50%;
+        }
+        .my-account{
+            width: 50%;
+        }
+        .social-media{
+            width: 50%;
+        }
+        .border1{
+            width:30px;
+        }
+        .border2{
+            width:100px;
+        }
+        /* Nav Bar */
+.nav{
+    margin-left: 0%;
+}
+
+/*email and password*/
+input {
+    max-width: 200x;
+    width: 80%;
+    min-width: 50px;
+  }
+    }
+
+
+    @media screen and (max-width:1300px){
+        .nav{
+            margin-left: 20%;
+            }
+    
+            .nav2{
+            margin-left: 0%;
+            margin-right: 0%;
+            padding: 0%;
+            }
+    }
+
+
+    @media screen and (max-width:1215px){
+        
+        .card1{
+        float: left;
+        margin: 0px;
+        padding: 0%;
+        width: 100%;
+        }
+        
+        /* Nav Bar */
+        .nav{
+        margin-left: 0%;
+        }
+
+        .nav2{
+        margin-left: 0%;
+        margin-right: 0%;
+        padding: 0%;
+        }
+        
+          
+    }
+
+
+    
+@media screen and (max-width:600px){
+    .footer-items{
+        width: 100%;
+    }
+    .my-account{
+        width: 100%;
+    }
+    .social-media{
+        width: 100%;
+    }
+    .border1{
+        width:20px;
+    }
+    .border2{
+        width:50px;
+    }
+    .card1{
+        float: left;
+        margin: 0px;
+        padding: 0%;
+        width: 100%;
+        }
+
+        /*email and password*/
+        input {
+            max-width: 200x;
+            width: 80%;
+            min-width: 50px;
+          }
+        
+    /* Nav Bar */
+.nav{
+    margin-left: 0%;
+}
+
+
+
+/* more button */
+
+.moreImage{
+    width: 50px;
+    height: 80px;
+    margin-top: 2050%;
+    
+}
+
+
+/* Back To Top  */
+.top{
+    
+    width: 10%;
+    height: 10%;
+}
+
+}
+    
+
+
+
+  
+
+/* Login  */
+
+.signinDiv{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 30%;
+}
+.LoginHeading{
+    margin-left: 20%;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.labels{
+align-items: center;
+background-color: rgba(128, 128, 128, 0.123);
+padding: 1%;
+margin: 5px;
+border: none;
+
+}
+.createAccount{
+font-weight:500;
+color: rgb(4, 4, 73);
+margin-left: 20%;
+}
+.forgot-password
+{
+    font-weight:500;
+color: rgba(169, 169, 169, 0.747);
+margin-left: 18%;
+
+}
+.loginWith
+{
+    margin-left: 9%;
+    color: darkgray;
+}
+.buttons{
+width: 51%;
+padding: 1%;
+margin: 5px;
+font-weight: bold;
+color: white;
+background-color:darkblue ;
+border: none;
+}
+.buttons:hover{
+    background-color:#0000FF ;
+}
+.signin-icons{
+    width: 3%;
+    height: 3%;
+    margin:0 auto;
+}
+
+/* Create Account */
+
+.CreateAccountHeading{
+    margin-left: 15%;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.loginAccount{
+    font-weight:500;
+    color: rgb(4, 4, 73);
+    margin-left: 24%;
+    }
+/* EXTRA HEADINGS */
+.headExtraDivs
+{
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+    float: none;;
+    text-align: center;
+color: #007bff;
+background-color: azure !important;
+}
+
+/* wishlist */
+
+.wishlistdiv{
+    width: 50%;
+height: 50%;
+margin: 10%;
+}
+.para{
+    font-weight: 500;
+    color: #3d545fbb;
+    text-align: center;
+    margin-left: 60%;
+}
+.designIcon{
+    color: #00ccff !important;
+}
+
+/* Back To Top  */
+.top{
+    position: fixed;
+    bottom: 10%;
+    width: 5%;
+    height: 10%;
+    margin-left: 94%;
+    border-radius: 10%;
+    
+}
+
+
+
+
+
+
+
+/* CHECK */
+
+.container .card1 .imgBox{
+    position: relative;
+    overflow: hidden;
+}
+
+.container .box .imgBox img{
+    max-width: 100%;
+    height: 250px;
+    transition: transform 2s;
+}
+.container .card1:hover .imgBox img{
+    transform:scale(1.2) !important;
+    }
